@@ -22,8 +22,8 @@ export interface GameCallbacks {
   onWin: () => void;
 }
 
-export const GRAVITY = 0.6;
+export const GRAVITY = 0.9;
 export const FRICTION = 0.8;
-export const MOVE_SPEED = 0.8;
-export const JUMP_FORCE = -14;
-export const MAX_SPEED = 8;
+export const MOVE_SPEED = 1.2;
+export const JUMP_FORCE = -18;
+export const MAX_SPEED = 12;

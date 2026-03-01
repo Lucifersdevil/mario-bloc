@@ -176,7 +176,7 @@ export class GameEngine {
       
       // Dash direction
       const dir = this.player.vx > 0 ? 1 : (this.player.vx < 0 ? -1 : 1);
-      this.player.vx = dir * 20; // Dash speed
+      this.player.vx = dir * 30; // Dash speed
       this.player.vy = 0; // Defy gravity during dash
       
       this.shake = 10; // Screen shake on dash
